@@ -54,7 +54,7 @@ void webSocketEvent(uint8_t num, WStype_t type, uint8_t * payload, size_t length
       lcd.drawJpg(payload, length);
       break;
     case WStype_ERROR:
-      Serial.println("WStype_ERROR : [%u]");
+      Serial.printf("WStype_ERROR : [%u]", num);
       break;
     case WStype_FRAGMENT_BIN_START:
     case WStype_FRAGMENT:
