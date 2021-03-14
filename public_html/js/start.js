@@ -9,6 +9,10 @@ var socket = null;
 var mmd_base = "mmd/";
 var pmx_list = [
     {
+        fname: 'korone/戌神ころね.pmx',
+        title: '戌神ころね'
+    },
+    {
         fname: 'Mirai_Akari_v1.0/MiraiAkari_v1.0.pmx',
         title: 'ミライアカリ'
     },
